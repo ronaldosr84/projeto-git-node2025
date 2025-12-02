@@ -12,7 +12,8 @@ app.get("/products", (req, res) => {
 app.get("/categories", (req, res) => {
     res.json([
         { id: 1, name: "Eletrônicos" },
-        { id: 2, name: "Livros" },        
+        { id: 2, name: "Livros" },       
+        { id: 2, name: "Alimentos" }
     ]);
 });
 const PORT = 3000;
